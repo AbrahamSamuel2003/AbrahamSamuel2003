@@ -5,65 +5,7 @@
 
 <!-- 3D NAME WITH WAVE EFFECT -->
 <div align="center">
-  <style>
-    .creative-name {
-      font-size: 4.5em;
-      font-weight: 900;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #6C5CE7 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: float 4s ease-in-out infinite;
-      text-shadow: 0 10px 30px rgba(108, 92, 231, 0.3);
-      margin: -20px 0 10px 0;
-      position: relative;
-      display: inline-block;
-    }
-    .creative-name::before {
-      content: '✨';
-      position: absolute;
-      left: -50px;
-      top: 0;
-      animation: sparkle 2s infinite;
-    }
-    .creative-name::after {
-      content: '💫';
-      position: absolute;
-      right: -50px;
-      top: 0;
-      animation: sparkle 2s infinite 1s;
-    }
-    @keyframes float {
-      0%, 100% { transform: translateY(0px) rotate(0deg); }
-      50% { transform: translateY(-15px) rotate(1deg); }
-    }
-    @keyframes sparkle {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.5; transform: scale(1.2); }
-    }
-    .glass-morphism {
-      background: rgba(255, 255, 255, 0.05);
-      backdrop-filter: blur(10px);
-      border-radius: 20px;
-      padding: 30px;
-      border: 1px solid rgba(108, 92, 231, 0.2);
-      box-shadow: 0 8px 32px 0 rgba(108, 92, 231, 0.2);
-    }
-    .gradient-border {
-      position: relative;
-      border-radius: 20px;
-      background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
-      padding: 3px;
-    }
-    .gradient-border-content {
-      background: #0d1117;
-      border-radius: 18px;
-      padding: 20px;
-    }
-  </style>
-  
-  <div class="creative-name">
-    Abraham Samuel
-  </div>
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=6C5CE7&text=Abraham%20Samuel&fontSize=100&height=150" />
   
   <!-- TITLE WITH GLITCH EFFECT -->
   <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=28&duration=2500&pause=1000&color=6C5CE7&center=true&vCenter=true&multiline=true&width=600&lines=UI%2FUX+Architect+%26+Creative+Developer;Design+Systems+Expert+%7C+Animation+Enthusiast;Crafting+Digital+Experiences+Since+2020" alt="Typing SVG" />
@@ -97,7 +39,7 @@
 </p>
 
 <!-- ABOUT ME WITH GLASSMORPHISM -->
-<div class="glass-morphism" align="center" style="margin: 30px auto; max-width: 900px;">
+<div align="center" style="margin: 30px auto; max-width: 900px;">
   <table>
     <tr>
       <td width="60%" style="padding: 20px;">
@@ -231,8 +173,8 @@
   <table>
     <tr>
       <td width="50%" style="padding: 15px;">
-        <div class="gradient-border">
-          <div class="gradient-border-content" align="center">
+        <div>
+          <div align="center">
             <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/voucherly.gif" width="100%" style="border-radius: 10px;">
             <h3>✨ Voucherly</h3>
             <p><i>Desktop Invoicing Reimagined</i></p>
@@ -244,8 +186,8 @@
         </div>
       </td>
       <td width="50%" style="padding: 15px;">
-        <div class="gradient-border">
-          <div class="gradient-border-content" align="center">
+        <div>
+          <div align="center">
             <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/ims.gif" width="100%" style="border-radius: 10px;">
             <h3>🚀 IMS Platform</h3>
             <p><i>Intern Management System</i></p>
@@ -259,8 +201,8 @@
     </tr>
     <tr>
       <td width="50%" style="padding: 15px;">
-        <div class="gradient-border">
-          <div class="gradient-border-content" align="center">
+        <div>
+          <div align="center">
             <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/fitness.gif" width="100%" style="border-radius: 10px;">
             <h3>💪 Fitness AI</h3>
             <p><i>Your Personal AI Trainer</i></p>
@@ -272,8 +214,8 @@
         </div>
       </td>
       <td width="50%" style="padding: 15px;">
-        <div class="gradient-border">
-          <div class="gradient-border-content" align="center">
+        <div>
+          <div align="center">
             <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/design-system.gif" width="100%" style="border-radius: 10px;">
             <h3>🎨 Design System</h3>
             <p><i>UI Component Library</i></p>
