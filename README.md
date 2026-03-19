@@ -13,6 +13,9 @@
 
 <!-- CONNECT BADGES WITH HOVER EFFECTS -->
 <p align="center">
+  <a href="https://portfolio-tau-drab-73.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=white&labelColor=0A0A0A&color=6C5CE7" />
+  </a>
   <a href="https://linkedin.com/in/abraham-samuel-ui-uxdesiginer">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0A0A&color=0077B5" />
   </a>
