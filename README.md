@@ -1,11 +1,11 @@
 <!-- CREATIVE HEADER WITH ANIMATION -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=shark&height=250&color=gradient&customColorList=6,11,20&text=Hi%20👋%20I'm&fontSize=60&fontAlignY=35&desc=Abraham%20Samuel&descAlignY=55&animation=twinkling" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=shark&height=250&color=gradient&customColorList=6,11,20&text=Hi%20👋%20I'm&fontSize=60&fontAlignY=35&descAlignY=55&animation=twinkling" width="100%"/>
 </div>
 
-<!-- 3D NAME WITH WAVE EFFECT -->
+<!-- TYPING NAME EFFECT -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=6C5CE7&text=Abraham%20Samuel&fontSize=100&height=150" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=900&size=70&duration=4000&pause=2000&color=6C5CE7&center=true&vCenter=true&width=600&lines=Abraham+Samuel" alt="Abraham Samuel Typing" />
   
   <!-- TITLE WITH GLITCH EFFECT -->
   <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=28&duration=2500&pause=1000&color=6C5CE7&center=true&vCenter=true&multiline=true&width=600&lines=UI%2FUX+Architect+%26+Creative+Developer;Design+Systems+Expert+%7C+Animation+Enthusiast;Crafting+Digital+Experiences+Since+2020" alt="Typing SVG" />
