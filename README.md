@@ -1,200 +1,439 @@
-<!-- HEADER SECTION WITH ANIMATED WAVING HAND -->
+<!-- CREATIVE HEADER WITH ANIMATION -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Abraham%20Samuel&fontSize=80&fontAlignY=35&desc=MCA%20Student%20%7C%20Frontend%20%26%20Android%20Developer%20%7C%20WordPress%20Specialist&descAlignY=55&animation=twinkling" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=shark&height=250&color=gradient&customColorList=6,11,20&text=Hi%20👋%20I'm&fontSize=60&fontAlignY=35&desc=Abraham%20Samuel&descAlignY=55&animation=twinkling" width="100%"/>
 </div>
 
-<!-- TYPING ANIMATION -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=6C5CE7&center=true&vCenter=true&random=false&width=600&lines=Code.+Create.+Innovate.;Full-Stack+Developer;UI%2FUX+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
-</p>
-
-<!-- QUICK BIO WITH SOCIAL BADGES -->
+<!-- 3D NAME WITH WAVE EFFECT -->
 <div align="center">
+  <style>
+    .creative-name {
+      font-size: 4.5em;
+      font-weight: 900;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #6C5CE7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: float 4s ease-in-out infinite;
+      text-shadow: 0 10px 30px rgba(108, 92, 231, 0.3);
+      margin: -20px 0 10px 0;
+      position: relative;
+      display: inline-block;
+    }
+    .creative-name::before {
+      content: '✨';
+      position: absolute;
+      left: -50px;
+      top: 0;
+      animation: sparkle 2s infinite;
+    }
+    .creative-name::after {
+      content: '💫';
+      position: absolute;
+      right: -50px;
+      top: 0;
+      animation: sparkle 2s infinite 1s;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-15px) rotate(1deg); }
+    }
+    @keyframes sparkle {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(1.2); }
+    }
+    .glass-morphism {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 30px;
+      border: 1px solid rgba(108, 92, 231, 0.2);
+      box-shadow: 0 8px 32px 0 rgba(108, 92, 231, 0.2);
+    }
+    .gradient-border {
+      position: relative;
+      border-radius: 20px;
+      background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+      padding: 3px;
+    }
+    .gradient-border-content {
+      background: #0d1117;
+      border-radius: 18px;
+      padding: 20px;
+    }
+  </style>
   
-  [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://portfolio-tau-drab-73.vercel.app/)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abraham-samuel-ui-uxdesiginer)
-  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abrahamsamuel645@gmail.com)
+  <div class="creative-name">
+    Abraham Samuel
+  </div>
   
+  <!-- TITLE WITH GLITCH EFFECT -->
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=28&duration=2500&pause=1000&color=6C5CE7&center=true&vCenter=true&multiline=true&width=600&lines=UI%2FUX+Architect+%26+Creative+Developer;Design+Systems+Expert+%7C+Animation+Enthusiast;Crafting+Digital+Experiences+Since+2020" alt="Typing SVG" />
 </div>
 
-<!-- BANNER IMAGE - REPLACE WITH YOUR CUSTOM BANNER -->
+<!-- CONNECT BADGES WITH HOVER EFFECTS -->
 <p align="center">
-  <img src="./banner.png" alt="Banner" width="100%" style="border-radius: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);"/>
+  <a href="https://linkedin.com/in/abraham-samuel-ui-uxdesiginer">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0A0A&color=0077B5" />
+  </a>
+  <a href="https://dribbble.com/abrahamsamuel">
+    <img src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white&labelColor=0A0A0A&color=EA4C89" />
+  </a>
+  <a href="https://behance.net/abrahamsamuel">
+    <img src="https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white&labelColor=0A0A0A&color=1769ff" />
+  </a>
+  <a href="mailto:abrahamsamuel645@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0A0A&color=D14836" />
+  </a>
+  <a href="https://www.figma.com/@abrahamsamuel">
+    <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=0A0A0A&color=F24E1E" />
+  </a>
+  <a href="https://codepen.io/abrahamsamuel">
+    <img src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white&labelColor=0A0A0A&color=000000" />
+  </a>
 </p>
 
-<!-- ABOUT ME SECTION WITH MODERN CARD DESIGN -->
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25px"> About Me
-
-<table align="center">
-  <tr>
-    <td width="60%">
-      
-✨ I'm a passionate developer dedicated to creating elegant, efficient solutions that blend technical precision with thoughtful design.
-
-🚀 Currently building **cross-platform desktop applications** with Electron and React
-
-🎯 **2024 Goals:** Contribute to open source & launch my SaaS product
-
-💡 Fun fact: I can solve a Rubik's cube in under 2 minutes while debugging code!
-
-📚 When I'm not coding, you'll find me reading tech blogs or exploring UI/UX trends
-
-    </td>
-    <td width="40%" align="center">
-      <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="250px" style="border-radius: 15px;">
-    </td>
-  </tr>
-</table>
-
-<!-- SKILLS SECTION WITH ANIMATED BADGES -->
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25px"> Technical Arsenal
-
-### 💻 Programming Languages
+<!-- CREATIVE BANNER - REPLACE WITH YOUR OWN -->
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=black" />
-  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white&labelColor=black" />
+  <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/banner.gif" alt="Creative Banner" width="90%" style="border-radius: 20px; box-shadow: 0 20px 40px rgba(108, 92, 231, 0.3);"/>
 </p>
 
-### 🎨 Frontend & Mobile
-<p align="center">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=black" />
-  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black&labelColor=black" />
-  <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=black" />
-</p>
+<!-- ABOUT ME WITH GLASSMORPHISM -->
+<div class="glass-morphism" align="center" style="margin: 30px auto; max-width: 900px;">
+  <table>
+    <tr>
+      <td width="60%" style="padding: 20px;">
+        <h2>🎨 <b>Creative Developer & UI/UX Architect</b></h2>
+        <p align="left">
+          <br>✨ Crafting digital experiences that blend <b>beautiful design</b> with <b>seamless functionality</b>
+          <br><br>🚀 Currently building: <b>Voucherly</b> - Next-gen invoicing platform
+          <br><br>💡 Obsessed with: <b>Micro-interactions, Design Systems, and Animation</b>
+          <br><br>🎯 2024 Mission: <b>Launch my Design System and contribute to Open Source</b>
+          <br><br>⚡ Fun fact: <b>I can recreate any UI in under 2 hours</b>
+        </p>
+      </td>
+      <td width="40%" align="center">
+        <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="250px" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);"/>
+      </td>
+    </tr>
+  </table>
+</div>
 
-### 🗄️ Backend & Database
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black&labelColor=black" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white&labelColor=black" />
-</p>
-
-### 🛠️ Tools & Platforms
-<p align="center">
-  <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=black" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white&labelColor=black" />
-</p>
-
-<!-- STATISTICS SECTION WITH MODERN CARDS -->
-## 📊 GitHub Analytics
+<!-- DESIGN PHILOSOPHY SECTION -->
+<h2 align="center">🎯 Design Philosophy</h2>
 
 <div align="center">
-  <a href="https://github.com/AbrahamSamuel2003">
-    <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=AbrahamSamuel2003&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117" />
-    <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=AbrahamSamuel2003&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-  </a>
+  <table>
+    <tr>
+      <td align="center" width="33%" style="padding: 20px;">
+        <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/simplicity.gif" width="80px" style="border-radius: 50%;"/>
+        <h3>Simplicity</h3>
+        <p><i>Less but better</i></p>
+        <p>Clean, minimal, purposeful interfaces that users love</p>
+      </td>
+      <td align="center" width="33%" style="padding: 20px;">
+        <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/creativity.gif" width="80px" style="border-radius: 50%;"/>
+        <h3>Creativity</h3>
+        <p><i>Think different</i></p>
+        <p>Unique solutions that stand out and delight users</p>
+      </td>
+      <td align="center" width="33%" style="padding: 20px;">
+        <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/functionality.gif" width="80px" style="border-radius: 50%;"/>
+        <h3>Functionality</h3>
+        <p><i>Form follows function</i></p>
+        <p>Intuitive, accessible, and responsive experiences</p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- CREATIVE SKILLS SECTION -->
+<h2 align="center">⚡ Creative Arsenal</h2>
+
+<div align="center">
+  <!-- Design Tools -->
+  <details open>
+    <summary><b>🎨 Design & Prototyping</b></summary>
+    <br/>
+    <p>
+      <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+      <img src="https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6" />
+      <img src="https://img.shields.io/badge/Sketch-FFB387?style=for-the-badge&logo=sketch&logoColor=black" />
+      <img src="https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue" />
+      <img src="https://img.shields.io/badge/InVision-FF3366?style=for-the-badge&logo=InVision&logoColor=white" />
+      <img src="https://img.shields.io/badge/Zeplin-FDBB30?style=for-the-badge&logo=zeplin&logoColor=black" />
+    </p>
+  </details>
+
+  <!-- Frontend Stack -->
+  <details>
+    <summary><b>💻 Frontend Development</b></summary>
+    <br/>
+    <p>
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+      <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" />
+      <img src="https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
+    </p>
+  </details>
+
+  <!-- Mobile Development -->
+  <details>
+    <summary><b>📱 Mobile & Desktop</b></summary>
+    <br/>
+    <p>
+      <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white" />
+      <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+      <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" />
+    </p>
+  </details>
+
+  <!-- Tools & Workflow -->
+  <details>
+    <summary><b>🔧 Tools & Workflow</b></summary>
+    <br/>
+    <p>
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+      <img src="https://img.shields.io/badge/Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white" />
+      <img src="https://img.shields.io/badge/Chromatic-FC521F?style=for-the-badge&logo=chromatic&logoColor=white" />
+      <img src="https://img.shields.io/badge/ZeroHeight-2D3748?style=for-the-badge&logo=zeroheight&logoColor=white" />
+      <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+    </p>
+  </details>
+</div>
+
+<!-- STATISTICS WITH CREATIVE CARDS -->
+<h2 align="center">📊 Creative Analytics</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=AbrahamSamuel2003&show_icons=true&theme=radical&count_private=true&hide_border=true&bg_color=0d1117&title_color=6C5CE7&icon_color=6C5CE7&text_color=ffffff&include_all_commits=true" width="100%"/>
+      </td>
+      <td>
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=AbrahamSamuel2003&theme=radical&hide_border=true&background=0d1117&stroke=6C5CE7&ring=6C5CE7&fire=6C5CE7&currStreakNum=ffffff" width="100%"/>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <div align="center">
-  <a href="https://github.com/AbrahamSamuel2003">
-    <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=AbrahamSamuel2003&theme=tokyonight&hide_border=true&background=0D1117" />
-    <img width="49%" src="https://github-profile-trophy.vercel.app/?username=AbrahamSamuel2003&theme=onedark&no-frame=true&row=1&column=7&margin-w=15" />
-  </a>
+  <img src="https://github-profile-trophy.vercel.app/?username=AbrahamSamuel2003&theme=radical&no-frame=true&row=1&column=7&margin-w=15" width="100%"/>
+</div>
+
+<!-- FEATURED PROJECTS WITH 3D CARDS -->
+<h2 align="center">🚀 Featured Masterpieces</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" style="padding: 15px;">
+        <div class="gradient-border">
+          <div class="gradient-border-content" align="center">
+            <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/voucherly.gif" width="100%" style="border-radius: 10px;">
+            <h3>✨ Voucherly</h3>
+            <p><i>Desktop Invoicing Reimagined</i></p>
+            <p>🎯 Electron + React • Offline-first • Beautiful UI</p>
+            <a href="https://github.com/AbrahamSamuel2003/Voucherly">
+              <img src="https://img.shields.io/badge/View_Project-6C5CE7?style=for-the-badge&logo=github&logoColor=white" />
+            </a>
+          </div>
+        </div>
+      </td>
+      <td width="50%" style="padding: 15px;">
+        <div class="gradient-border">
+          <div class="gradient-border-content" align="center">
+            <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/ims.gif" width="100%" style="border-radius: 10px;">
+            <h3>🚀 IMS Platform</h3>
+            <p><i>Intern Management System</i></p>
+            <p>🎯 React + Node.js • Real-time • Role-based</p>
+            <a href="https://github.com/AbrahamSamuel2003/IMS">
+              <img src="https://img.shields.io/badge/View_Project-6C5CE7?style=for-the-badge&logo=github&logoColor=white" />
+            </a>
+          </div>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" style="padding: 15px;">
+        <div class="gradient-border">
+          <div class="gradient-border-content" align="center">
+            <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/fitness.gif" width="100%" style="border-radius: 10px;">
+            <h3>💪 Fitness AI</h3>
+            <p><i>Your Personal AI Trainer</i></p>
+            <p>🎯 Android + AI • Personalized • Gamified</p>
+            <a href="https://github.com/AbrahamSamuel2003/Fitness-AI">
+              <img src="https://img.shields.io/badge/View_Project-6C5CE7?style=for-the-badge&logo=github&logoColor=white" />
+            </a>
+          </div>
+        </div>
+      </td>
+      <td width="50%" style="padding: 15px;">
+        <div class="gradient-border">
+          <div class="gradient-border-content" align="center">
+            <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/design-system.gif" width="100%" style="border-radius: 10px;">
+            <h3>🎨 Design System</h3>
+            <p><i>UI Component Library</i></p>
+            <p>🎯 React • Storybook • Accessible</p>
+            <a href="#">
+              <img src="https://img.shields.io/badge/Coming_Soon-FF6B6B?style=for-the-badge&logo=github&logoColor=white" />
+            </a>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <!-- ACTIVITY GRAPH -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AbrahamSamuel2003&custom_title=Abraham's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=7F3FCE&line=7F3FCE&point=7F3FCE&area_color=FFFFFF&title_color=FFFFFF&area=true&hide_border=true" width="100%"/>
-</div>
-
-<!-- FEATURED PROJECTS WITH MODERN CARDS -->
-## 🚀 Featured Projects
+<h2 align="center">📈 Creative Journey</h2>
 
 <div align="center">
-  <a href="https://github.com/AbrahamSamuel2003/Voucherly">
-    <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=AbrahamSamuel2003&repo=Voucherly&theme=tokyonight&bg_color=0D1117&hide_border=true&show_icons=true" />
-  </a>
-  <a href="https://github.com/AbrahamSamuel2003/IMS">
-    <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=AbrahamSamuel2003&repo=IMS&theme=tokyonight&bg_color=0D1117&hide_border=true&show_icons=true" />
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AbrahamSamuel2003&custom_title=Design%20%26%20Code%20Adventure&bg_color=0d1117&color=6C5CE7&line=6C5CE7&point=ffffff&area_color=6C5CE7&title_color=6C5CE7&area=true&hide_border=true&radius=10" width="95%"/>
 </div>
+
+<!-- LATEST CREATIVE WORK -->
+<h2 align="center">🎯 Recent UI Explorations</h2>
 
 <div align="center">
-  <a href="https://github.com/AbrahamSamuel2003/Fitness-AI">
-    <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=AbrahamSamuel2003&repo=Fitness-AI&theme=tokyonight&bg_color=0D1117&hide_border=true&show_icons=true" />
-  </a>
-  <a href="https://github.com/AbrahamSamuel2003">
-    <img width="49%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=AbrahamSamuel2003&repo=your-next-project&theme=tokyonight&bg_color=0D1117&hide_border=true&show_icons=true" />
-  </a>
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://via.placeholder.com/200x150/6C5CE7/ffffff?text=E-Commerce+App" style="border-radius: 15px; box-shadow: 0 10px 20px rgba(108,92,231,0.3);">
+        <br/>
+        <b>E-Commerce App</b>
+        <br/>
+        <small>Mobile UI Design</small>
+      </td>
+      <td align="center">
+        <img src="https://via.placeholder.com/200x150/FF6B6B/ffffff?text=Analytics+Dashboard" style="border-radius: 15px; box-shadow: 0 10px 20px rgba(255,107,107,0.3);">
+        <br/>
+        <b>Analytics Dashboard</b>
+        <br/>
+        <small>Web Interface</small>
+      </td>
+      <td align="center">
+        <img src="https://via.placeholder.com/200x150/4ECDC4/ffffff?text=Portfolio+Site" style="border-radius: 15px; box-shadow: 0 10px 20px rgba(78,205,196,0.3);">
+        <br/>
+        <b>Portfolio Concept</b>
+        <br/>
+        <small>Creative Direction</small>
+      </td>
+      <td align="center">
+        <img src="https://via.placeholder.com/200x150/A166AB/ffffff?text=Mobile+Game" style="border-radius: 15px; box-shadow: 0 10px 20px rgba(161,102,171,0.3);">
+        <br/>
+        <b>Game Interface</b>
+        <br/>
+        <small>UI/UX Design</small>
+      </td>
+    </tr>
+  </table>
 </div>
 
-<!-- PROJECT SHOWCASE WITH DETAILS -->
-### 🔥 Highlighted Project: [Voucherly – Desktop Invoicing Solution](https://github.com/AbrahamSamuel2003/Voucherly)
-> A cross-platform desktop application built using Electron and React to provide a lightweight, offline-first invoicing alternative. Features include PDF generation, client management, and expense tracking.
+<!-- DESIGN INSPIRATION -->
+<h2 align="center">🌟 Design Inspiration</h2>
 
-### 💼 [Intern Management System (IMS)](https://github.com/AbrahamSamuel2003/IMS)
-> A comprehensive web platform streamlining the internship lifecycle with role-based dashboards, task automation, and real-time progress tracking.
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="https://img.shields.io/badge/Apple-999999?style=for-the-badge&logo=apple&logoColor=white" /></td>
+      <td><img src="https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white" /></td>
+      <td><img src="https://img.shields.io/badge/Airbnb-FF5A5F?style=for-the-badge&logo=airbnb&logoColor=white" /></td>
+      <td><img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" /></td>
+      <td><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" /></td>
+      <td><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></td>
+    </tr>
+  </table>
+</div>
 
-### 🤖 [Fitness AI Companion](https://github.com/AbrahamSamuel2003/Fitness-AI)
-> An intelligent Android app generating personalized workout plans based on user goals, fitness level, and available equipment using AI algorithms.
+<!-- DAILY INSPIRATION -->
+<h2 align="center">💭 Daily Inspiration</h2>
 
-<!-- WAKATIME STATS - OPTIONAL -->
-## ⏱️ Coding Activity
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="80%"/>
+</div>
 
-<!-- START: waka-box -->
-<!-- Insert WakaTime stats here if you use it -->
-<!-- END: waka-box -->
-
-<!-- BLOG POSTS SECTION - OPTIONAL -->
-## 📝 Latest Blog Posts
-<!-- BLOG-POST-LIST:START -->
-- [Building Cross-Platform Apps with Electron and React](https://dev.to/yourblog/electron-react-guide)
-- [Getting Started with Android Development in 2024](https://dev.to/yourblog/android-dev-2024)
-- [Why I Chose Tailwind CSS for My Projects](https://dev.to/yourblog/tailwind-css-benefits)
-<!-- BLOG-POST-LIST:END -->
-
-<!-- SUPPORT SECTION -->
-## ☕ Support My Work
+<!-- SUPPORT CREATIVITY -->
+<h2 align="center">☕ Support Creativity</h2>
 
 <div align="center">
   <a href="https://www.buymeacoffee.com/abrahamsamuel">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
-  </a>
-  <a href="https://ko-fi.com/abrahamsamuel">
-    <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" />
+    <img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black&labelColor=FFDD00&color=FFDD00" />
   </a>
   <a href="https://www.patreon.com/abrahamsamuel">
     <img src="https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white" />
   </a>
+  <a href="https://ko-fi.com/abrahamsamuel">
+    <img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white" />
+  </a>
+  <a href="https://paypal.me/abrahamsamuel">
+    <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" />
+  </a>
 </div>
 
-<!-- CONNECT SECTION WITH ANIMATED ICONS -->
-## 🌐 Let's Connect
+<!-- AVAILABILITY SECTION -->
+<h2 align="center">🎯 Available For</h2>
 
 <div align="center">
-  <a href="https://linkedin.com/in/abraham-samuel-ui-uxdesiginer">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0A0A" />
-  </a>
-  <a href="mailto:abrahamsamuel645@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0A0A" />
-  </a>
-  <a href="https://portfolio-tau-drab-73.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=firefox&logoColor=white" />
-  </a>
-  <a href="https://dev.to/abrahamsamuel">
-    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" />
-  </a>
-  <a href="https://medium.com/@abrahamsamuel">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white&labelColor=0A0A0A" />
-  </a>
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/consulting.gif" width="60px">
+        <br/>
+        <b>UI/UX Consulting</b>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/design-system-icon.gif" width="60px">
+        <br/>
+        <b>Design Systems</b>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/freelance.gif" width="60px">
+        <br/>
+        <b>Freelance Projects</b>
+      </td>
+      <td align="center" width="25%">
+        <img src="https://raw.githubusercontent.com/AbrahamSamuel2003/AbrahamSamuel2003/main/assets/collaboration.gif" width="60px">
+        <br/>
+        <b>Collaborations</b>
+      </td>
+    </tr>
+  </table>
 </div>
 
-<!-- SNAKE ANIMATION CONTRIBUTION GRAPH -->
+<!-- BLOG POSTS SECTION -->
+<h2 align="center">📝 Latest from Blog</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <a href="https://dev.to/abrahamsamuel/building-design-systems-in-react-2024">
+          <img src="https://img.shields.io/badge/Building%20Design%20Systems%20in%20React%202024-6C5CE7?style=for-the-badge&logo=dev.to&logoColor=white" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://dev.to/abrahamsamuel/mastering-framer-motion-animation-guide">
+          <img src="https://img.shields.io/badge/Mastering%20Framer%20Motion%20-%20Animation%20Guide-FF6B6B?style=for-the-badge&logo=dev.to&logoColor=white" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://dev.to/abrahamsamuel/from-figma-to-code-workflow-optimization">
+          <img src="https://img.shields.io/badge/From%20Figma%20to%20Code%20-%20Workflow%20Optimization-4ECDC4?style=for-the-badge&logo=dev.to&logoColor=white" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- SNAKE ANIMATION -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/AbrahamSamuel2003/AbrahamSamuel2003/blob/output/github-contribution-grid-snake-dark.svg" />
@@ -203,16 +442,46 @@
   </picture>
 </div>
 
-<!-- QUOTE OF THE DAY -->
+<!-- FOOTER WITH WAVE -->
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=Let's%20Create%20Something%20Amazing&fontSize=30&fontAlignY=70&animation=twinkling" width="100%"/>
+  
+  <!-- PROFILE VIEWS -->
+  <img src="https://komarev.com/ghpvc/?username=AbrahamSamuel2003&label=✨+Creative+Views&color=6C5CE7&style=flat-square" alt="Profile Views" />
+  
+  <!-- SIGNATURE -->
+  <p>
+    <img src="https://img.shields.io/badge/Designed%20with%20%F0%9F%96%A4%20by-Abraham%20Samuel-6C5CE7?style=for-the-badge&labelColor=black" />
+  </p>
+  
+  <!-- EASTER EGG -->
+  <details>
+    <summary><b>🔮 Click for a surprise</b></summary>
+    <br/>
+    <p align="center">
+      <img src="https://media.giphy.com/media/3o7abB06u9bNzA8LC8/giphy.gif" width="200px"/>
+      <br/>
+      <b>✨ You found the easter egg! ✨</b>
+      <br/>
+      <i>"Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs</i>
+    </p>
+  </details>
+  
+  <!-- QUICK TIP -->
+  <p>
+    <sub><b>💡 Pro tip:</b> Press <kbd>.</kbd> on my profile to open the web editor and explore the code!</sub>
+  </p>
 </div>
 
-<!-- FOOTER SECTION -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&fontSize=30&animation=twinkling" width="100%"/>
-  
-  <img src="https://komarev.com/ghpvc/?username=AbrahamSamuel2003&label=Profile%20Views&color=6C5CE7&style=flat-square" alt="Profile Views" />
-  
-  <p>⭐️ From [AbrahamSamuel2003](https://github.com/AbrahamSamuel2003)</p>
-</div>
+<!-- HIDDEN COMMENTS FOR SEO 
+  ****************************************
+  *                                      *
+  *   UI/UX Designer & Creative Developer*
+  *   Specializing in:                   *
+  *   - Design Systems                    *
+  *   - Mobile App Design                 *
+  *   - Web Animations                    *
+  *   - Frontend Development              *
+  *                                      *
+  ****************************************
+-->
