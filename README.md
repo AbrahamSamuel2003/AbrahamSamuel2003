@@ -11,10 +11,9 @@
 <!-- QUICK BIO WITH SOCIAL BADGES -->
 <div align="center">
   
-  [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://abrahamsamuel.dev)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://portfolio-tau-drab-73.vercel.app/)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abraham-samuel-ui-uxdesiginer)
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abrahamsamuel645@gmail.com)
-  [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=Twitter&logoColor=white)](https://twitter.com/yourhandle)
   
 </div>
 
@@ -184,14 +183,14 @@
   <a href="mailto:abrahamsamuel645@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0A0A" />
   </a>
+  <a href="https://portfolio-tau-drab-73.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-0A0A0A?style=for-the-badge&logo=firefox&logoColor=white" />
+  </a>
   <a href="https://dev.to/abrahamsamuel">
     <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" />
   </a>
   <a href="https://medium.com/@abrahamsamuel">
     <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white&labelColor=0A0A0A" />
-  </a>
-  <a href="https://stackoverflow.com/users/yourid">
-    <img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white&labelColor=0A0A0A" />
   </a>
 </div>
 
